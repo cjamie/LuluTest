@@ -10,12 +10,31 @@
 		7DA068AC2841E30A0026A187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068AB2841E30A0026A187 /* AppDelegate.swift */; };
 		7DA068AE2841E30A0026A187 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068AD2841E30A0026A187 /* SceneDelegate.swift */; };
 		7DA068B02841E30A0026A187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068AF2841E30A0026A187 /* ViewController.swift */; };
-		7DA068B32841E30A0026A187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA068B12841E30A0026A187 /* Main.storyboard */; };
 		7DA068B52841E30D0026A187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DA068B42841E30D0026A187 /* Assets.xcassets */; };
 		7DA068B82841E30D0026A187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA068B62841E30D0026A187 /* LaunchScreen.storyboard */; };
 		7DA068C32841E30E0026A187 /* LuluTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068C22841E30E0026A187 /* LuluTestTests.swift */; };
-		7DA068CD2841E30E0026A187 /* LuluTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068CC2841E30E0026A187 /* LuluTestUITests.swift */; };
-		7DA068CF2841E30E0026A187 /* LuluTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068CE2841E30E0026A187 /* LuluTestUITestsLaunchTests.swift */; };
+		7DA068DC2841ECCB0026A187 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068DB2841ECCB0026A187 /* Then.swift */; };
+		7DA068E12842011D0026A187 /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068E02842011D0026A187 /* UseCase.swift */; };
+		7DA068E42842014D0026A187 /* RefreshSnapshotOnTabChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068E32842014D0026A187 /* RefreshSnapshotOnTabChange.swift */; };
+		7DA068E7284201B50026A187 /* UIBarButtonItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068E6284201B50026A187 /* UIBarButtonItemController.swift */; };
+		7DA068E9284202170026A187 /* BinaryTabbedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068E8284202170026A187 /* BinaryTabbedController.swift */; };
+		7DA068EB284202A40026A187 /* Garment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068EA284202A40026A187 /* Garment.swift */; };
+		7DA068EF28420AD10026A187 /* ModeToSnapshotMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068EE28420AD10026A187 /* ModeToSnapshotMapper.swift */; };
+		7DA068F128420B3A0026A187 /* KitchenSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068F028420B3A0026A187 /* KitchenSink.swift */; };
+		7DA068F428420CA30026A187 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068F328420CA30026A187 /* Coordinator.swift */; };
+		7DA068F628420CBC0026A187 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068F528420CBC0026A187 /* AppCoordinator.swift */; };
+		7DA068F92842125C0026A187 /* HomeScreenComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068F82842125C0026A187 /* HomeScreenComposer.swift */; };
+		7DA068FB2842128B0026A187 /* InMemoryGarments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068FA2842128B0026A187 /* InMemoryGarments.swift */; };
+		7DA068FD28421F7D0026A187 /* Saver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068FC28421F7D0026A187 /* Saver.swift */; };
+		7DA0690028421FBE0026A187 /* UserDefaultsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA068FF28421FBE0026A187 /* UserDefaultsWrapper.swift */; };
+		7DA0690228421FD90026A187 /* SaveUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0690128421FD90026A187 /* SaveUseCase.swift */; };
+		7DA069042842203F0026A187 /* UserInputPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA069032842203F0026A187 /* UserInputPolicy.swift */; };
+		7DA0690628429DF20026A187 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0690528429DF20026A187 /* UserDefaults+.swift */; };
+		7DA0690928429E370026A187 /* UserDefaultsGarment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0690828429E370026A187 /* UserDefaultsGarment.swift */; };
+		7DA0690C28429EF60026A187 /* GarmentListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0690B28429EF60026A187 /* GarmentListController.swift */; };
+		7DA0690E28429F190026A187 /* AddGarmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0690D28429F190026A187 /* AddGarmentScreen.swift */; };
+		7DA069112842A27A0026A187 /* SaveUseCaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA069102842A27A0026A187 /* SaveUseCaseTest.swift */; };
+		7DA069132842A3B70026A187 /* RefreshSnapshotOnTabChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA069122842A3B70026A187 /* RefreshSnapshotOnTabChangeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +59,34 @@
 		7DA068AB2841E30A0026A187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DA068AD2841E30A0026A187 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7DA068AF2841E30A0026A187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7DA068B22841E30A0026A187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DA068B42841E30D0026A187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DA068B72841E30D0026A187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DA068B92841E30D0026A187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DA068BE2841E30E0026A187 /* LuluTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuluTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA068C22841E30E0026A187 /* LuluTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuluTestTests.swift; sourceTree = "<group>"; };
 		7DA068C82841E30E0026A187 /* LuluTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuluTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DA068CC2841E30E0026A187 /* LuluTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuluTestUITests.swift; sourceTree = "<group>"; };
-		7DA068CE2841E30E0026A187 /* LuluTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuluTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DA068DB2841ECCB0026A187 /* Then.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		7DA068E02842011D0026A187 /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
+		7DA068E32842014D0026A187 /* RefreshSnapshotOnTabChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshSnapshotOnTabChange.swift; sourceTree = "<group>"; };
+		7DA068E6284201B50026A187 /* UIBarButtonItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemController.swift; sourceTree = "<group>"; };
+		7DA068E8284202170026A187 /* BinaryTabbedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTabbedController.swift; sourceTree = "<group>"; };
+		7DA068EA284202A40026A187 /* Garment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garment.swift; sourceTree = "<group>"; };
+		7DA068EE28420AD10026A187 /* ModeToSnapshotMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeToSnapshotMapper.swift; sourceTree = "<group>"; };
+		7DA068F028420B3A0026A187 /* KitchenSink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenSink.swift; sourceTree = "<group>"; };
+		7DA068F328420CA30026A187 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		7DA068F528420CBC0026A187 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		7DA068F82842125C0026A187 /* HomeScreenComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenComposer.swift; sourceTree = "<group>"; };
+		7DA068FA2842128B0026A187 /* InMemoryGarments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryGarments.swift; sourceTree = "<group>"; };
+		7DA068FC28421F7D0026A187 /* Saver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saver.swift; sourceTree = "<group>"; };
+		7DA068FF28421FBE0026A187 /* UserDefaultsWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapper.swift; sourceTree = "<group>"; };
+		7DA0690128421FD90026A187 /* SaveUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveUseCase.swift; sourceTree = "<group>"; };
+		7DA069032842203F0026A187 /* UserInputPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputPolicy.swift; sourceTree = "<group>"; };
+		7DA0690528429DF20026A187 /* UserDefaults+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+.swift"; sourceTree = "<group>"; };
+		7DA0690828429E370026A187 /* UserDefaultsGarment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsGarment.swift; sourceTree = "<group>"; };
+		7DA0690B28429EF60026A187 /* GarmentListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentListController.swift; sourceTree = "<group>"; };
+		7DA0690D28429F190026A187 /* AddGarmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGarmentScreen.swift; sourceTree = "<group>"; };
+		7DA069102842A27A0026A187 /* SaveUseCaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveUseCaseTest.swift; sourceTree = "<group>"; };
+		7DA069122842A3B70026A187 /* RefreshSnapshotOnTabChangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshSnapshotOnTabChangeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +119,6 @@
 			children = (
 				7DA068AA2841E30A0026A187 /* LuluTest */,
 				7DA068C12841E30E0026A187 /* LuluTestTests */,
-				7DA068CB2841E30E0026A187 /* LuluTestUITests */,
 				7DA068A92841E30A0026A187 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,10 +136,14 @@
 		7DA068AA2841E30A0026A187 /* LuluTest */ = {
 			isa = PBXGroup;
 			children = (
+				7DA068FE28421F8E0026A187 /* Services */,
+				7DA068F228420C970026A187 /* Navigation */,
+				7DA068DF284201030026A187 /* Infrastructure */,
+				7DA068DE284200FE0026A187 /* Domain */,
+				7DA068DD2841ECDE0026A187 /* Utilities */,
 				7DA068AB2841E30A0026A187 /* AppDelegate.swift */,
 				7DA068AD2841E30A0026A187 /* SceneDelegate.swift */,
 				7DA068AF2841E30A0026A187 /* ViewController.swift */,
-				7DA068B12841E30A0026A187 /* Main.storyboard */,
 				7DA068B42841E30D0026A187 /* Assets.xcassets */,
 				7DA068B62841E30D0026A187 /* LaunchScreen.storyboard */,
 				7DA068B92841E30D0026A187 /* Info.plist */,
@@ -113,18 +154,130 @@
 		7DA068C12841E30E0026A187 /* LuluTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				7DA0690F2842A2730026A187 /* UseCases */,
 				7DA068C22841E30E0026A187 /* LuluTestTests.swift */,
 			);
 			path = LuluTestTests;
 			sourceTree = "<group>";
 		};
-		7DA068CB2841E30E0026A187 /* LuluTestUITests */ = {
+		7DA068DD2841ECDE0026A187 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				7DA068CC2841E30E0026A187 /* LuluTestUITests.swift */,
-				7DA068CE2841E30E0026A187 /* LuluTestUITestsLaunchTests.swift */,
+				7DA068DB2841ECCB0026A187 /* Then.swift */,
+				7DA068F028420B3A0026A187 /* KitchenSink.swift */,
 			);
-			path = LuluTestUITests;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7DA068DE284200FE0026A187 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7DA068ED28420A880026A187 /* Rules and Policies */,
+				7DA068EC284202B20026A187 /* Models */,
+				7DA068E2284201340026A187 /* UseCases */,
+				7DA068E02842011D0026A187 /* UseCase.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7DA068DF284201030026A187 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				7DA0690A28429EEC0026A187 /* Views */,
+				7DA0690728429E1D0026A187 /* UserDefaults */,
+				7DA068F7284212520026A187 /* Factories */,
+				7DA068E5284201AB0026A187 /* Controllers */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		7DA068E2284201340026A187 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				7DA068E32842014D0026A187 /* RefreshSnapshotOnTabChange.swift */,
+				7DA0690128421FD90026A187 /* SaveUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		7DA068E5284201AB0026A187 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DA068E6284201B50026A187 /* UIBarButtonItemController.swift */,
+				7DA068E8284202170026A187 /* BinaryTabbedController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7DA068EC284202B20026A187 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7DA068EA284202A40026A187 /* Garment.swift */,
+				7DA068FA2842128B0026A187 /* InMemoryGarments.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7DA068ED28420A880026A187 /* Rules and Policies */ = {
+			isa = PBXGroup;
+			children = (
+				7DA068EE28420AD10026A187 /* ModeToSnapshotMapper.swift */,
+				7DA069032842203F0026A187 /* UserInputPolicy.swift */,
+			);
+			path = "Rules and Policies";
+			sourceTree = "<group>";
+		};
+		7DA068F228420C970026A187 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				7DA068F328420CA30026A187 /* Coordinator.swift */,
+				7DA068F528420CBC0026A187 /* AppCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		7DA068F7284212520026A187 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				7DA068F82842125C0026A187 /* HomeScreenComposer.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		7DA068FE28421F8E0026A187 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7DA068FC28421F7D0026A187 /* Saver.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7DA0690728429E1D0026A187 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				7DA0690528429DF20026A187 /* UserDefaults+.swift */,
+				7DA068FF28421FBE0026A187 /* UserDefaultsWrapper.swift */,
+				7DA0690828429E370026A187 /* UserDefaultsGarment.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		7DA0690A28429EEC0026A187 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DA0690B28429EF60026A187 /* GarmentListController.swift */,
+				7DA0690D28429F190026A187 /* AddGarmentScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DA0690F2842A2730026A187 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				7DA069102842A27A0026A187 /* SaveUseCaseTest.swift */,
+				7DA069122842A3B70026A187 /* RefreshSnapshotOnTabChangeTests.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +386,6 @@
 			files = (
 				7DA068B82841E30D0026A187 /* LaunchScreen.storyboard in Resources */,
 				7DA068B52841E30D0026A187 /* Assets.xcassets in Resources */,
-				7DA068B32841E30A0026A187 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +410,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA0690928429E370026A187 /* UserDefaultsGarment.swift in Sources */,
+				7DA068EF28420AD10026A187 /* ModeToSnapshotMapper.swift in Sources */,
+				7DA068E7284201B50026A187 /* UIBarButtonItemController.swift in Sources */,
+				7DA068F628420CBC0026A187 /* AppCoordinator.swift in Sources */,
+				7DA069042842203F0026A187 /* UserInputPolicy.swift in Sources */,
+				7DA068E12842011D0026A187 /* UseCase.swift in Sources */,
+				7DA068EB284202A40026A187 /* Garment.swift in Sources */,
+				7DA0690028421FBE0026A187 /* UserDefaultsWrapper.swift in Sources */,
+				7DA068E9284202170026A187 /* BinaryTabbedController.swift in Sources */,
+				7DA068FB2842128B0026A187 /* InMemoryGarments.swift in Sources */,
+				7DA068FD28421F7D0026A187 /* Saver.swift in Sources */,
+				7DA068DC2841ECCB0026A187 /* Then.swift in Sources */,
+				7DA0690228421FD90026A187 /* SaveUseCase.swift in Sources */,
+				7DA068F128420B3A0026A187 /* KitchenSink.swift in Sources */,
+				7DA068F92842125C0026A187 /* HomeScreenComposer.swift in Sources */,
+				7DA0690E28429F190026A187 /* AddGarmentScreen.swift in Sources */,
 				7DA068B02841E30A0026A187 /* ViewController.swift in Sources */,
+				7DA0690C28429EF60026A187 /* GarmentListController.swift in Sources */,
+				7DA068F428420CA30026A187 /* Coordinator.swift in Sources */,
+				7DA0690628429DF20026A187 /* UserDefaults+.swift in Sources */,
 				7DA068AC2841E30A0026A187 /* AppDelegate.swift in Sources */,
+				7DA068E42842014D0026A187 /* RefreshSnapshotOnTabChange.swift in Sources */,
 				7DA068AE2841E30A0026A187 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +440,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA069112842A27A0026A187 /* SaveUseCaseTest.swift in Sources */,
+				7DA069132842A3B70026A187 /* RefreshSnapshotOnTabChangeTests.swift in Sources */,
 				7DA068C32841E30E0026A187 /* LuluTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,8 +450,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DA068CF2841E30E0026A187 /* LuluTestUITestsLaunchTests.swift in Sources */,
-				7DA068CD2841E30E0026A187 /* LuluTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +469,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7DA068B12841E30A0026A187 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DA068B22841E30A0026A187 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7DA068B62841E30D0026A187 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +608,6 @@
 				INFOPLIST_FILE = LuluTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +635,6 @@
 				INFOPLIST_FILE = LuluTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
