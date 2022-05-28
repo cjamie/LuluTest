@@ -35,17 +35,12 @@
 		7DA0690E28429F190026A187 /* AddGarmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0690D28429F190026A187 /* AddGarmentScreen.swift */; };
 		7DA069112842A27A0026A187 /* SaveUseCaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA069102842A27A0026A187 /* SaveUseCaseTest.swift */; };
 		7DA069132842A3B70026A187 /* RefreshSnapshotOnTabChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA069122842A3B70026A187 /* RefreshSnapshotOnTabChangeTests.swift */; };
+		7DA069192842A77A0026A187 /* HomeScreenSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA069182842A77A0026A187 /* HomeScreenSnapshotTests.swift */; };
+		7DA0691C2842A8520026A187 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 7DA0691B2842A8520026A187 /* SnapshotTesting */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		7DA068BF2841E30E0026A187 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7DA068A02841E30A0026A187 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7DA068A72841E30A0026A187;
-			remoteInfo = LuluTest;
-		};
-		7DA068C92841E30E0026A187 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7DA068A02841E30A0026A187 /* Project object */;
 			proxyType = 1;
@@ -64,7 +59,6 @@
 		7DA068B92841E30D0026A187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DA068BE2841E30E0026A187 /* LuluTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuluTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA068C22841E30E0026A187 /* LuluTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuluTestTests.swift; sourceTree = "<group>"; };
-		7DA068C82841E30E0026A187 /* LuluTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuluTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA068DB2841ECCB0026A187 /* Then.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 		7DA068E02842011D0026A187 /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
 		7DA068E32842014D0026A187 /* RefreshSnapshotOnTabChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshSnapshotOnTabChange.swift; sourceTree = "<group>"; };
@@ -87,6 +81,7 @@
 		7DA0690D28429F190026A187 /* AddGarmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGarmentScreen.swift; sourceTree = "<group>"; };
 		7DA069102842A27A0026A187 /* SaveUseCaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveUseCaseTest.swift; sourceTree = "<group>"; };
 		7DA069122842A3B70026A187 /* RefreshSnapshotOnTabChangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshSnapshotOnTabChangeTests.swift; sourceTree = "<group>"; };
+		7DA069182842A77A0026A187 /* HomeScreenSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenSnapshotTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DA068C52841E30E0026A187 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7DA0691C2842A8520026A187 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +109,7 @@
 				7DA068AA2841E30A0026A187 /* LuluTest */,
 				7DA068C12841E30E0026A187 /* LuluTestTests */,
 				7DA068A92841E30A0026A187 /* Products */,
+				7DA0691A2842A8520026A187 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,7 +118,6 @@
 			children = (
 				7DA068A82841E30A0026A187 /* LuluTest.app */,
 				7DA068BE2841E30E0026A187 /* LuluTestTests.xctest */,
-				7DA068C82841E30E0026A187 /* LuluTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +143,7 @@
 		7DA068C12841E30E0026A187 /* LuluTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				7DA069172842A7540026A187 /* Snapshot */,
 				7DA0690F2842A2730026A187 /* UseCases */,
 				7DA068C22841E30E0026A187 /* LuluTestTests.swift */,
 			);
@@ -280,6 +270,21 @@
 			path = UseCases;
 			sourceTree = "<group>";
 		};
+		7DA069172842A7540026A187 /* Snapshot */ = {
+			isa = PBXGroup;
+			children = (
+				7DA069182842A77A0026A187 /* HomeScreenSnapshotTests.swift */,
+			);
+			path = Snapshot;
+			sourceTree = "<group>";
+		};
+		7DA0691A2842A8520026A187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,6 +301,8 @@
 			dependencies = (
 			);
 			name = LuluTest;
+			packageProductDependencies = (
+			);
 			productName = LuluTest;
 			productReference = 7DA068A82841E30A0026A187 /* LuluTest.app */;
 			productType = "com.apple.product-type.application";
@@ -314,27 +321,12 @@
 				7DA068C02841E30E0026A187 /* PBXTargetDependency */,
 			);
 			name = LuluTestTests;
+			packageProductDependencies = (
+				7DA0691B2842A8520026A187 /* SnapshotTesting */,
+			);
 			productName = LuluTestTests;
 			productReference = 7DA068BE2841E30E0026A187 /* LuluTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7DA068C72841E30E0026A187 /* LuluTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7DA068D82841E30E0026A187 /* Build configuration list for PBXNativeTarget "LuluTestUITests" */;
-			buildPhases = (
-				7DA068C42841E30E0026A187 /* Sources */,
-				7DA068C52841E30E0026A187 /* Frameworks */,
-				7DA068C62841E30E0026A187 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7DA068CA2841E30E0026A187 /* PBXTargetDependency */,
-			);
-			name = LuluTestUITests;
-			productName = LuluTestUITests;
-			productReference = 7DA068C82841E30E0026A187 /* LuluTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -353,10 +345,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 7DA068A72841E30A0026A187;
 					};
-					7DA068C72841E30E0026A187 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 7DA068A72841E30A0026A187;
-					};
 				};
 			};
 			buildConfigurationList = 7DA068A32841E30A0026A187 /* Build configuration list for PBXProject "LuluTest" */;
@@ -368,13 +356,15 @@
 				Base,
 			);
 			mainGroup = 7DA0689F2841E3090026A187;
+			packageReferences = (
+				7DA069142842A74C0026A187 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 7DA068A92841E30A0026A187 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7DA068A72841E30A0026A187 /* LuluTest */,
 				7DA068BD2841E30E0026A187 /* LuluTestTests */,
-				7DA068C72841E30E0026A187 /* LuluTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -390,13 +380,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7DA068BC2841E30E0026A187 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DA068C62841E30E0026A187 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,16 +423,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA069192842A77A0026A187 /* HomeScreenSnapshotTests.swift in Sources */,
 				7DA069112842A27A0026A187 /* SaveUseCaseTest.swift in Sources */,
 				7DA069132842A3B70026A187 /* RefreshSnapshotOnTabChangeTests.swift in Sources */,
 				7DA068C32841E30E0026A187 /* LuluTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DA068C42841E30E0026A187 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,11 +437,6 @@
 			isa = PBXTargetDependency;
 			target = 7DA068A72841E30A0026A187 /* LuluTest */;
 			targetProxy = 7DA068BF2841E30E0026A187 /* PBXContainerItemProxy */;
-		};
-		7DA068CA2841E30E0026A187 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7DA068A72841E30A0026A187 /* LuluTest */;
-			targetProxy = 7DA068C92841E30E0026A187 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -690,42 +662,6 @@
 			};
 			name = Release;
 		};
-		7DA068D92841E30E0026A187 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RNF778SHGZ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.askuriel.LuluTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LuluTest;
-			};
-			name = Debug;
-		};
-		7DA068DA2841E30E0026A187 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RNF778SHGZ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.askuriel.LuluTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LuluTest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -756,16 +692,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DA068D82841E30E0026A187 /* Build configuration list for PBXNativeTarget "LuluTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7DA068D92841E30E0026A187 /* Debug */,
-				7DA068DA2841E30E0026A187 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7DA069142842A74C0026A187 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7DA0691B2842A8520026A187 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DA069142842A74C0026A187 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7DA068A02841E30A0026A187 /* Project object */;
 }
